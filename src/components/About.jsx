@@ -6,7 +6,7 @@ const About = () => {
     const skilldata =[
         {
             name:"frontend",
-            skill:["HTML","CSS","JavaScript","Tailwindgit push -u origin main","ReactJs"]
+            skill:["HTML","CSS","JavaScript","Tailwind css","ReactJs"]
         },
         {
             name:"backend",
