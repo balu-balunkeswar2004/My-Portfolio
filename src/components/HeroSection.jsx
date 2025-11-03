@@ -15,7 +15,7 @@ const HeroSection = () => {
                 // {icon:<IoBasketballSharp />,
                 //   link:""},
                 {icon:<FaGithub />,
-                  link:"https://github.com/himansukumarsahoo"}]
+                  link:"https://github.com/balu-balunkeswar2004 "}]
   return (
     <div className='hero' id="hero">
         <ImageSection/>
