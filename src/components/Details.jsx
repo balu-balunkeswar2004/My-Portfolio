@@ -5,7 +5,7 @@ const Details = ({icondata}) => {
   return (
     <div className="right-hero">
                 <div className="text-container">
-                        <span>Himansu Kumar Sahoo</span>
+                        <span>Balunkeswar dey</span>
                         <h1>i'm</h1>
                         <h1>Python Fullstack Developer</h1>
                         <div className="buttons">
