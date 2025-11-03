@@ -788,3 +788,254 @@ textarea::placeholder{
     text-decoration: none;
     padding-left: 5px;
 }
+
+
+/* ===========================
+   RESPONSIVE MEDIA QUERIES
+=========================== */
+
+/* 📱 Small devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav-name {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list > ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-btn {
+    display: none; /* Hide big buttons on small screens */
+  }
+
+  .main > .hero {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main > .hero > .left-hero,
+  .main > .hero > .right-hero {
+    width: 100%;
+    height: auto;
+  }
+
+  .main > .hero > .left-hero > .img-container {
+    width: 70%;
+    height: 250px;
+  }
+
+  .text-container > h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .text-container > p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo-container {
+    justify-content: center;
+  }
+
+  .about_container {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+  .introduction_box {
+    width: 80%;
+    margin: 0;
+  }
+
+  .skills_box {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frontend,
+  .backend,
+  .database {
+    width: 100%;
+  }
+
+  .project_container {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .project_container > div {
+    width: 80%;
+    height: 250px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+  }
+
+  .left-contact,
+  .right-contact {
+    width: 90%;
+    margin: 0;
+  }
+
+  .send > button {
+    width: 40%;
+  }
+
+  .footer {
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .footer > .list > ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer > .icon {
+    width: 60%;
+  }
+}
+
+/* 💻 Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .nav-list {
+    width: 50%;
+  }
+
+  .nav-btn {
+    width: 30%;
+  }
+
+  .main > .hero {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main > .hero > .left-hero,
+  .main > .hero > .right-hero {
+    width: 100%;
+  }
+
+  .main > .hero > .left-hero > .img-container {
+    width: 50%;
+    height: 300px;
+  }
+
+  .text-container > h1 {
+    font-size: 40px;
+  }
+
+  .about_container {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+  }
+
+  .introduction_box {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .skills_box {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .frontend,
+  .backend,
+  .database {
+    width: 100%;
+    align-items: center;
+  }
+
+  .project_container {
+    flex-wrap: wrap;
+    gap: 30px;
+    height: auto;
+  }
+
+  .project_container > div {
+    width: 45%;
+    height: 250px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+  }
+
+  .left-contact,
+  .right-contact {
+    width: 90%;
+  }
+
+  .send > button {
+    width: 25%;
+  }
+
+  .footer {
+    margin-top: 60px;
+  }
+}
+
+/* 🖥️ Medium desktop (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .nav-list {
+    width: 50%;
+  }
+
+  .nav-btn {
+    width: 25%;
+  }
+
+  .main > .hero > .right-hero h1 {
+    font-size: 45px;
+  }
+
+  .skills_box {
+    gap: 30px;
+  }
+
+  .project_container > div {
+    width: 30%;
+  }
+
+  .contact-container {
+    gap: 30px;
+  }
+
+  .footer > .list > ul {
+    gap: 20px;
+  }
+}
